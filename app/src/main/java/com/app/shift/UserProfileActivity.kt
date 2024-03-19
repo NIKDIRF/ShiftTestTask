@@ -28,7 +28,7 @@ class UserProfileActivity : AppCompatActivity() {
             val user = db.getDao().getUserById(userId)
 
             runOnUiThread {
-                Picasso.get().load(user?.pictureMedium).into(binding.avatar)
+                Picasso.get().load(user?.pictureLarge).into(binding.avatar)
                 var text = "${user?.title} ${user?.firstName} ${user?.lastName}"
                 binding.fio.text = text
                 binding.emailText.text = user?.email

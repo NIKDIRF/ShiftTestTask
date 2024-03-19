@@ -126,7 +126,7 @@
         android:layout_margin="10dp"
         app:cardBackgroundColor="@color/grey_100"
         app:layout_constraintTop_toBottomOf="@id/guideline_40"
-        app:layout_constraintBottom_toTopOf="@id/guideline_95"
+        app:layout_constraintBottom_toTopOf="@id/guideline_98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -392,11 +392,11 @@
         app:layout_constraintGuide_percent="0.4"/>
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_95"
+        android:id="@+id/guideline_98"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.99"/>
+        app:layout_constraintGuide_percent="0.98"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_v05"
@@ -417,6 +417,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.90"/>
+        app:layout_constraintGuide_percent="0.9"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

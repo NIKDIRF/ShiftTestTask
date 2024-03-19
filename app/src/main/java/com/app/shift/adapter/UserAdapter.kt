@@ -21,7 +21,7 @@ class UserAdapter: RecyclerView.Adapter<UserAdapter.UserHolder>() {
         private val binding = bind(item)
 
         fun bind(user: UserEntity) = with(binding) {
-            Picasso.get().load(user.pictureMedium).into(binding.avatar)
+            Picasso.get().load(user.pictureLarge).into(binding.avatar)
             var text = "${user.title} ${user.firstName} ${user.lastName}"
             binding.fio.text = text
             text = "${user.streetName} ${user.streetNumber}"
