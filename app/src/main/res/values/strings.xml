@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">shift</string>
+    <string name="tool_fio_text">Фридкин Даниил</string>
+    <string name="tool_address_text">Чкаловский пр. 31</string>
+    <string name="tool_phone_text">+7(952)666-09-04</string>
+    <string name="gender_text">"Gender: "</string>
+    <string name="name_title_text">"        Title: "</string>
+    <string name="name_first_text">"        First: "</string>
+    <string name="name_text">"Name: "</string>
+    <string name="name_last_text">"         Last: "</string>
+    <string name="location_text">"Location: "</string>
+    <string name="country_text">"         Country: "</string>
+    <string name="state_text">"         State: "</string>
+    <string name="city_text">"         City: "</string>
+    <string name="street_text">"         Street: "</string>
+    <string name="postcode_text">"         Postcode: "</string>
+    <string name="coordinates_text">"         Coordinates: "</string>
+    <string name="latitude_text">"                  Latitude: "</string>
+    <string name="longitude_text">"                  Longitude: "</string>
+    <string name="timezone_text">"         Timezone: "</string>
+    <string name="offset_text">"                  Offset:"</string>
+    <string name="description_text">"                  Description: "</string>
+    <string name="email_slider_text">"Email: "</string>
+    <string name="date_of_birth_text">"Date of birth: "</string>
+    <string name="age_text">"Age: "</string>
+    <string name="regitstered_text">"Regitstered: "</string>
+    <string name="register_date_text">"         Date: "</string>
+    <string name="register_age_text">"         Age: "</string>
+    <string name="phone_text">"Phone: "</string>
+    <string name="cell_text">"Cell: "</string>
+    <string name="reload_button_text">Reload</string>
+    <string name="header_text">Users</string>
+    <string name="email_default_text">email</string>
+    <string name="phone_number_default_text">phone number</string>
+    <string name="coordinates_default_text">coordinates</string>
+    <string name="profile_header_text">Profile</string>
+</resources>
